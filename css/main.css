@@ -8,18 +8,28 @@ a{
 	text-decoration: none;
 	color: black;
 }
-.black {
-	background-color: black;
+.button {
 	border-radius: .55em;
 	text-align: center;
 	padding: .25em .5em;
 	font-weight: normal;
 }
-.black a{
+.black {
+	background-color: black;
+}
+.silver{
+	background-color: silver;
+}
+.white{
 	color: white;
 }
 .sides{
 	padding: 0 1em;
+}
+.bus{
+	background-image: url(../images/bus.jpg);
+	background-size: cover;
+	background-position: 0;
 }
 @media only screen and (min-width: 25em) {
 nav li {
