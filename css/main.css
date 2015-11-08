@@ -17,9 +17,6 @@ a{
 .black {
 	background-color: black;
 }
-.silver{
-	background-color: silver;
-}
 .white{
 	color: white;
 }
@@ -30,6 +27,9 @@ a{
 	background-image: url(../images/bus.jpg);
 	background-size: cover;
 	background-position: 0;
+}
+.bus h1 {
+	max-width: 10em;
 }
 @media only screen and (min-width: 25em) {
 nav li {
@@ -46,9 +46,15 @@ nav ol{
 .sides{
 	padding: 0 2em;
 }
+.bus{
+	padding-bottom: 8em;
+}
 }
 @media only screen and (min-width: 60em) {
 .sides{
 	padding: 0 5em;
+}
+.bus{
+	padding-bottom: 12em;
 }
 }
