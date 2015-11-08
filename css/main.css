@@ -1,8 +1,44 @@
+html{
+	font-family: Oxygen, sans-serif;
+}
 .silver {
 	background-color: #eeeeee;
 }
-@media only screen and (min-width: 38em) {
+a{
+	text-decoration: none;
+	color: black;
+}
+.black {
+	background-color: black;
+	border-radius: .55em;
+	text-align: center;
+	padding: .25em .5em;
+	font-weight: normal;
+}
+.black a{
+	color: white;
+}
+.sides{
+	padding: 0 1em;
+}
+@media only screen and (min-width: 25em) {
 nav li {
 	display: inline-block;
+}
+nav ol{
+	text-align: center;
+}
+}
+@media only screen and (min-width: 38em) {
+nav ol{
+	text-align: right;
+}
+.sides{
+	padding: 0 2em;
+}
+}
+@media only screen and (min-width: 60em) {
+.sides{
+	padding: 0 5em;
 }
 }
