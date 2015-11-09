@@ -49,16 +49,19 @@ a{
 	max-width: 10em;
 }
 @media only screen and (min-width: 25em) {
-nav li {
+li {
 	display: inline-block;
 }
-nav ol{
+ol{
 	text-align: center;
 }
 }
 @media only screen and (min-width: 38em) {
 nav ol{
 	text-align: right;
+}
+footer ol{
+	text-align: left;
 }
 .sides{
 	padding: 0 2em;
@@ -82,6 +85,5 @@ nav ol{
 }
 .mw{
 	max-width:70em;
-	margin: auto;
 }
 }
