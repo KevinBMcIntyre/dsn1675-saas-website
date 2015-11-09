@@ -28,6 +28,10 @@ a{
 	width: 100%;
 	border: 0;
 }
+.guttersub {
+	padding-left: 1em;
+	padding-right: 1em;
+}
 .black {
 	background-color: black;
 }
@@ -40,6 +44,9 @@ a{
 .sidesgutter{
 	padding: 0 .5em;
 }
+.sidessub{
+	padding: 0 0;
+}
 .bus{
 	background-image: url(../images/bus.jpg);
 	background-size: cover;
@@ -47,6 +54,12 @@ a{
 }
 .bus h1 {
 	max-width: 10em;
+}
+.one {
+	background-color: #D3D3D3;
+}
+.three {
+	background-color: #D3D3D3;
 }
 @media only screen and (min-width: 25em) {
 li {
@@ -57,6 +70,10 @@ ol{
 }
 }
 @media only screen and (min-width: 38em) {
+.guttersub {
+	padding-left: 0.7500rem;
+	padding-right: 0.7500rem;
+}
 nav ol{
 	text-align: right;
 }
@@ -69,15 +86,33 @@ footer ol{
 .sidesgutter{
 	padding: 0 1.5em;
 }
+.sidessub{
+	padding: 0 1.5em;
+}
 .bus{
 	padding-bottom: 8em;
 }
+.three{
+	background-color: silver;
+}
+.four {
+	background-color: #D3D3D3;
+}
 }
 @media only screen and (min-width: 60em) {
+.one {
+	background-color: silver;
+}
+.two{
+	background-color: #D3D3D3;
+}
 .sides{
 	padding: 0 5em;
 }
 .sidesgutter{
+	padding: 0 4.5em;
+}
+.sidessub{
 	padding: 0 4.5em;
 }
 .bus{
