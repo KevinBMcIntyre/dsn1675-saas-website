@@ -4,6 +4,12 @@ html{
 .silver {
 	background-color: #eeeeee;
 }
+.grey{
+	background-color: silver;
+}
+.drkgrey {
+	background-color: grey;
+}
 a{
 	text-decoration: none;
 	color: black;
@@ -14,6 +20,14 @@ a{
 	padding: .25em .5em;
 	font-weight: normal;
 }
+.input {
+	border-radius: .55em;
+	text-align: left;
+	padding: .25em .5em;
+	font-weight: normal;
+	width: 100%;
+	border: 0;
+}
 .black {
 	background-color: black;
 }
@@ -22,6 +36,9 @@ a{
 }
 .sides{
 	padding: 0 1em;
+}
+.sidesgutter{
+	padding: 0 .5em;
 }
 .bus{
 	background-image: url(../images/bus.jpg);
@@ -46,6 +63,9 @@ nav ol{
 .sides{
 	padding: 0 2em;
 }
+.sidesgutter{
+	padding: 0 1.5em;
+}
 .bus{
 	padding-bottom: 8em;
 }
@@ -53,6 +73,9 @@ nav ol{
 @media only screen and (min-width: 60em) {
 .sides{
 	padding: 0 5em;
+}
+.sidesgutter{
+	padding: 0 4.5em;
 }
 .bus{
 	padding-bottom: 12em;
