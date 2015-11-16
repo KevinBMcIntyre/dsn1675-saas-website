@@ -14,6 +14,11 @@ a{
 	text-decoration: none;
 	color: black;
 }
+.social {
+	width: 35px;
+	height: 35px;
+	margin: 0;
+	padding: 0;}
 .button {
 	border-radius: .55em;
 	text-align: center;
