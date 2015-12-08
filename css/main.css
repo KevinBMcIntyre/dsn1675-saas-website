@@ -24,12 +24,6 @@ a{
 .footalign {
 	text-align: center;
 }
-.button {
-	border-radius: .55em;
-	text-align: center;
-	padding: .25em .5em;
-	font-weight: normal;
-}
 .input {
 	border-radius: .55em;
 	text-align: left;
@@ -37,6 +31,19 @@ a{
 	font-weight: normal;
 	width: 100%;
 	border: 0;
+}
+.button {
+	border-radius: .55em;
+	text-align: center;
+	padding: .25em .5em;
+	font-weight: normal;
+}
+.button2 {
+	border-radius: 0.55em;
+	text-align: center;
+	padding: .25em .5em;
+	border: 0;
+	width: 100%;
 }
 .select {
 	height: 2.5em;
