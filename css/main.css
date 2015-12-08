@@ -45,6 +45,10 @@ a{
 	border: 0;
 	width: 100%;
 }
+.expiration {
+	width: 100%;
+	float: left;
+}
 .select {
 	height: 2.5em;
 }

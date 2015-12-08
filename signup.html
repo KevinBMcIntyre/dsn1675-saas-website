@@ -42,49 +42,55 @@
 				</div>
 				<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 sidesgutter mw unit-l-centered">
 					<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-push-m-1-4 gutter-1-2">
-						<form>
-							<label for="email2"></label>
-							<input type="text" id="email2" name="email" value="Email" class="input push-1-2">
-							<label for="password2"></label>
-							<input type="text" name="password" id="password2" value="Password" class="input push-1-2">
+						<form action="https://formspree.io/kevinmcintyre2014@gmail.com" method="post">
+							<div>
+								<input name="email" id="email" type="email" placeholder="Email" class="input push-1-2" required>
+							</div>
+							<div>
+								<input name="password" id="password" type="password" placeholder="Password" class="input push-1-2" required>
+							</div>
+							<p class="text-center push-1-2">Credit Card</p>
+							<div>
+								<input name="cardname" id="cardname" placeholder="Name on Card" class="input push-1-2" required>
+							</div>
+							<div>
+								<input name="cardnumber" id="cardnumber" type="number" placeholder="Card Number" class="input push-1-2" required>
+							</div>
+							<div>
+								<label class="text-center push-1-2 expiration" for="expiration">Expiration Date</label>
+								<select id="expiration" class="input select push-1-2">
+									<option>01</option>
+									<option>02</option>
+									<option>03</option>
+									<option>04</option>
+									<option>05</option>
+									<option>06</option>
+									<option>07</option>
+									<option>08</option>
+									<option>09</option>
+									<option>10</option>
+									<option>11</option>
+									<option>12</option>
+								</select>
+								<select id="expiration" class="input select push-1-2">
+									<option>2015</option>
+									<option>2016</option>
+									<option>2017</option>
+									<option>2018</option>
+									<option>2019</option>
+									<option>2020</option>
+									<option>2021</option>
+									<option>2022</option>
+									<option>2023</option>
+									<option>2024</option>
+									<option>2025</option>
+								</select>
+							</div>
+							<div>
+								<button class="white black button2 kilo" type="submit">Join</button>
+							</div>
+							<input type="hidden" name"_next" value="http://kevinbmcintyre.github.io/dsn1675-saas-website/thankyou">
 						</form>
-						<p class="text-center push-1-2">Credit Card</p>
-						<form>
-							<label for="cardname"></label>
-							<input type="text" id="cardname" name="cardname" value="Name on Card" class="input push-1-2">
-							<label for="cardnumber"></label>
-							<input type="text" id="cardnumber" name="cardnumber" value="Card Number" class="input push-1-2">
-						</form>
-						<p class="text-center push-1-2">Expiration Date</p>
-						<select class="input select push-1-2">
-							<option>01</option>
-							<option>02</option>
-							<option>03</option>
-							<option>04</option>
-							<option>05</option>
-							<option>06</option>
-							<option>07</option>
-							<option>08</option>
-							<option>09</option>
-							<option>10</option>
-							<option>11</option>
-							<option>12</option>
-						</select>
-						<select class="input select push-1-2">
-							<option>2015</option>
-							<option>2016</option>
-							<option>2017</option>
-							<option>2018</option>
-							<option>2019</option>
-							<option>2020</option>
-							<option>2021</option>
-							<option>2022</option>
-							<option>2023</option>
-							<option>2024</option>
-							<option>2025</option>
-						</select>
-						<br>
-						<p class="black button"><a class="white" href="index.html">Join</a></p>
 					</div>
 				</div>
 			</div>
