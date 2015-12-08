@@ -88,17 +88,22 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid pad-t-2 pad-b drkgrey center">
+			<div class="grid pad-t-2 pad-b-2 drkgrey center">
 				<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 sidesgutter mw unit-l-centered">
 					<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-push-m-1-4 gutter-1-2">
 						<p class="text-center push-1-2">Already a member?</p>
-						<form>
-							<label for="email"></label>
-							<input type="text" id="email" name="email" value="Email" class="input push-1-2">
-							<label for="password"></label>
-							<input type="text" id="password" name="password" value="Password" class="input push-1-2">
+						<form action="https://formspree.io/kevinmcintyre2014@gmail.com" method="post">
+							<div>
+								<input name="email" id="email" type="email" placeholder="Email" class="input push-1-2" required>
+							</div>
+							<div>
+								<input name="password" id="password" type="password" placeholder="Password" class="input push-1-2" required>
+							</div>
+							<div>
+								<button class="white black button2 kilo" type="submit">Login</button>
+							</div>
+							<input type="hidden" name"_next" value="http://kevinbmcintyre.github.io/dsn1675-saas-website/thankyou">
 						</form>
-						<p class="black button"><a class="white" href="index.html">Login</a></p>
 					</div>
 				</div>
 			</div>
