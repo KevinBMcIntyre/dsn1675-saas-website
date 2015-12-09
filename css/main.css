@@ -52,7 +52,7 @@ a{
 	padding: .25em .5em;
 	font-weight: normal;
 	width: 100%;
-	border: 0;
+	border: .15em solid black;
 }
 .button {
 	border-radius: .55em;
@@ -106,10 +106,16 @@ a{
 	max-width: 10em;
 }
 .one {
-	background-color: #D3D3D3;
+	background-color: #FECC74;
 }
 .three {
-	background-color: #D3D3D3;
+	background-color: #FECC74;
+}
+.two {
+	background-color: white;
+}
+.four {
+	background-color: white;
 }
 .skip-links > li {
 	display: block;
@@ -146,10 +152,10 @@ footer ol{
 	padding-bottom: 8em;
 }
 .three{
-	background-color: silver;
+	background-color: white;
 }
 .four {
-	background-color: #D3D3D3;
+	background-color: #FECC74;
 }
 .footalign {
 	text-align: right;
@@ -157,10 +163,10 @@ footer ol{
 }
 @media only screen and (min-width: 60em) {
 .one {
-	background-color: silver;
+	background-color: white;
 }
 .two{
-	background-color: #D3D3D3;
+	background-color: #FECC74;
 }
 .sides{
 	padding: 0 5em;
