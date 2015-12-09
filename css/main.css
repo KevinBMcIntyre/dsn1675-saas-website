@@ -10,9 +10,31 @@ html{
 .drkgrey {
 	background-color: grey;
 }
+.whiteback {
+	background-color: white;
+}
+.tuscany {
+	background-color: #BE4355;
+}
+.bulkan {
+	background-color: #601A51;
+}
+.tocantins {
+	background-color: #E79668;
+}
+.skane {
+	background-color: #FECC74;
+}
+.footgrad {
+	background: #FECC74; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#FECC74, #E79668); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FECC74, #E79668); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FECC74, #E79668); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FECC74, #E79668); /* Standard syntax */
+}
 a{
 	text-decoration: none;
-	color: black;
+	color: #601A51;
 }
 .social {
 	width: 35px;
@@ -71,10 +93,14 @@ a{
 .sidessub{
 	padding: 0 0;
 }
-.bus{
-	background-image: url(../images/bus.jpg);
+.venice{
+	background-image: url(../images/venice.jpg);
 	background-size: cover;
 	background-position: 0;
+}
+.castle{
+	background-image: url(../images/castle.jpg);
+	background-size: cover;
 }
 .bus h1 {
 	max-width: 10em;
